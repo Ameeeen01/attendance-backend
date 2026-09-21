@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Real backend for the Geofence Attendance app — sessions, roster, and server-verified check-ins shared across every device.",
   "main": "server.js",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js"
